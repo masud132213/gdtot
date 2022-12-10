@@ -42,21 +42,7 @@ from .helper.tg_helper.msg_utils import (
 from .helper.tg_helper.filters import CustomFilters
 from .helper.tg_helper.make_buttons import ButtonMaker
 
-from .functions import (
-    auth,
-    list,
-    cancel_mirror,
-    mirror_status,
-    mirror,
-    clone,
-    watch,
-    shell,
-    eval,
-    delete,
-    count,
-    leech_settings,
-    speedtst
-)
+from .functions import clone
 
 
 def stats(update, context):
