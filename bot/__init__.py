@@ -1,3 +1,4 @@
+from flask import Flask
 from logging import (
     getLogger,
     FileHandler,
@@ -520,3 +521,7 @@ bot = updater.bot
 dispatcher = updater.dispatcher
 job_queue = updater.job_queue
 botname = bot.username
+fapp = Flask(__name__)
+
+if __name__ == "__main__":
+    fapp.run()
