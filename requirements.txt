@@ -23,3 +23,5 @@ cloudscraper
 bs4
 playwright
 speedtest-cli
+flask
+gunicorn
